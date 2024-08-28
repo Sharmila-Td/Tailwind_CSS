@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
+<!-- <html lang="en" class="dark"> -->
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,7 +13,7 @@
     />
     <link href="./output.css" rel="stylesheet" />
   </head>
-  <body>
+  <body class="bg-white dark:bg-black">
     <!-- <h1 class="text-3xl font-bold underline">Welcome</h1> -->
     <!-- Typography -->
     <!-- <p class="font-sans">Sans-serif font is used in this line</p>
@@ -72,10 +73,56 @@
             <!-- <p class="text-pure-pink text-xl">Custom text color</p> -->
 
           <!-- padding margin -->
-           <button class="bg-red-400 p-2 m-2">padding and margin from 4 sides</button>
-           <button class="bg-red-400 px-2 mx-5">Padding and margin from horizontal sides</button>
-           <button class="bg-red-400 py-2 my-5">Padding and margin from vertical sides</button>
-           <button class="bg-red-400 ps-2 ms-6">Padding and margin from start point</button> 
-           <button class="bg-red-400 pe-2 me-6">Padding and margin from end point</button>
+           <!-- <button class="bg-red-400 p-2 m-2">padding and margin from 4 sides</button>
+           <button class="bg-red-400 px-5 mx-5">Padding and margin from horizontal sides</button>
+           <button class="bg-red-400 py-5 my-5">Padding and margin from vertical sides</button>
+           <button class="bg-red-400 ps-8 ms-6">Padding and margin from start point</button> 
+           <button class="bg-red-400 pe-8 me-6">Padding and margin from end point</button> -->
+
+           <!-- Border and Hover -->
+            <!-- <button class="text-white bg-red-400 px-2 py-2 mt-5 ml-5 border-2 border-red-700 rounded-3xl hover:bg-white hover:text-black">Click me</button> -->
+
+            <!-- layout -->
+            <!-- <div class="container relative border border-red-400 mt-10 mx-auto rounded-lg">
+                <h1 class="text-pure-pink pt-2 pl-4 text-xl">Welcome to Tailwind css</h1>
+                <p class="p-4 mb-3"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, repudiandae quia sint aliquam eaque saepe porro dolore reiciendis sit necessitatibus iste fugiat tempora ad rem odio modi sunt ullam perspiciatis? </p> -->
+                <!-- <div class="flex justify-center"> -->
+                    <!-- <button class="text-white bg-red-400 px-2 py-2 mt-5 ml-5 my-3 border-2 border-red-700 rounded-3xl hover:bg-white hover:text-black absolute bottom-0 transform translate-y-8">Read more</button>  -->
+                <!-- </div> -->
+            <!-- </div> -->
+
+            <!-- Responsive classes -->
+             <!-- <div class="bg-gray-200 md:bg-green-200 lg:bg-red-200">
+              <p class="text-lg ps-5">Background color changes on screen size</p>
+             </div> -->
+
+             <!-- Flexbox layout -->
+              <!-- <div class="container flex flex-row justify-around items-baseline">
+                <div class="bg-green-400 flex-grow">Content 1</div>
+                <div class="bg-green-400 flex-1">Content 2</div>
+                <div class="bg-green-400">Content 3</div>
+              </div> -->
+
+              <!-- grid layout -->
+              <!-- <div class="container grid grid-cols-3 gap-3">
+                <div class="bg-green-400 ">Content 1</div>
+                <div class="bg-green-400 ">Content 2</div>
+                <div class="bg-green-400">Content 3</div>
+                <div class="bg-green-400 ">Content 4</div>
+                <div class="bg-green-400 ">Content 5</div>
+                <div class="bg-green-400">Content 6</div>
+              </div> -->
+
+              <!-- Dark mode -->
+              <button class="text-xl bg-slate-950 text-white p-3 rounded m-10 dark:bg-slate-300 dark:text-black"> Click me </button>
+
+              <!-- Configuration -->
+               <button class="click-btn">Click here</button>
+
+               <button class="click-btn">Read me</button>
+
+               <button class="click-btn">Click here</button>
+
+              
    </body>
 </html>
